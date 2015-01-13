@@ -1,6 +1,18 @@
 $("document").ready(function(){
     $(".yeah").css("background-color", "yellow");
+    
+    $('replaceWText').bind('click', replaceWText);
+    
+    $('#slideAway').bind('click', slideTheImage);
 });
+
+function addApara() {
+    $()
+}
+
+function replaceWText() {
+    $('#replaceWtext').text('Replaced!');
+}
 
 $("document").ready(function(){
     $(".red").css("background-color", "red");
