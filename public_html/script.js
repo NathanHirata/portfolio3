@@ -4,7 +4,11 @@ $("document").ready(function(){
     
     $(".projectColor").css("background-color", "lightblue");
     
-    $(".k").css("color", "lightblue");
+    $(".k").css("color", "white");
+    
+    
+    
+    
     
     $('replaceWText').bind('click', replaceWText);
     
@@ -17,6 +21,11 @@ $("document").ready(function(){
     $('#showLogov2').bind('click', showTheImagev2);
     
     $('#hideLogov2').bind('click', hideTheImagev2);
+    
+    
+    
+    
+    $('#superHumans').accordion({header: "h3"});
 
 });
 
